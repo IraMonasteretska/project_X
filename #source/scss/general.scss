@@ -1,0 +1,193 @@
+// Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+// GILROY
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/gilroy/gilroy-bold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/gilroy/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/gilroy/gilroy-bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/gilroy/gilroy-bold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/gilroy/gilroy-bold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/gilroy/gilroy-bold.svg#gilroy-bold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/gilroy/gilroy-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/gilroy/gilroy-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/gilroy/gilroy-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/gilroy/gilroy-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/gilroy/gilroy-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/gilroy/gilroy-regular.svg#gilroy-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/gilroy/gilroy-semibold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/gilroy/gilroy-semibold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/gilroy/gilroy-semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/gilroy/gilroy-semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/gilroy/gilroy-semibold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/gilroy/gilroy-semibold.svg#gilroy-semibold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+
+
+// SOFIA
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia/SofiaProRegular.eot');
+    src: local('Sofia Pro Regular'), local('SofiaProRegular'),
+        url('../fonts/sofia/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofia/SofiaProRegular.woff2') format('woff2'),
+        url('../fonts/sofia/SofiaProRegular.woff') format('woff'),
+        url('../fonts/sofia/SofiaProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('../fonts/sofia/SofiaProSemiBold.eot');
+    src: local('Sofia Pro Semi Bold'), local('SofiaProSemiBold'),
+        url('../fonts/sofia/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofia/SofiaProSemiBold.woff2') format('woff2'),
+        url('../fonts/sofia/SofiaProSemiBold.woff') format('woff'),
+        url('../fonts/sofia/SofiaProSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia/SofiaProMedium.eot');
+    src: local('Sofia Pro Medium'), local('SofiaProMedium'),
+        url('../fonts/sofia/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofia/SofiaProMedium.woff2') format('woff2'),
+        url('../fonts/sofia/SofiaProMedium.woff') format('woff'),
+        url('../fonts/sofia/SofiaProMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia/SofiaProBold.eot');
+    src: local('Sofia Pro Bold'), local('SofiaProBold'),
+        url('../fonts/sofia/SofiaProBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sofia/SofiaProBold.woff2') format('woff2'),
+        url('../fonts/sofia/SofiaProBold.woff') format('woff'),
+        url('../fonts/sofia/SofiaProBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body,
+html {
+    height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.pagewrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Sofia Pro';
+    background: #F8FAFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+.lightblue-btn {
+    min-height: 46px;
+    max-width: 164px;
+    width: 100%;
+    transition: .3s;
+    background: #D7E2FF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px 4px;
+    font-family: 'Sofia Pro Semi';
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none !important;
+    color: #4346DE;
+
+    &:hover {
+        background: #4346DE;
+        color: #fff;
+    }
+}
+
+.section-title {
+    margin-bottom: 40px;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2A2A2A;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.span-nowrap {
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// font-family: 'Gilroy-Bold';
+// font-family: 'Gilroy-Regular';
+// font-family: 'Gilroy-SemiBold';
+// font-family: 'Sofia Pro';
+// font-family: 'Sofia Pro Semi';
+// font-family: 'Inter', sans-serif;

@@ -1,0 +1,119 @@
+header.header {
+    height: 114px;
+    display: flex;
+    align-items: center;
+    background: #F8FAFF;
+    border-bottom: 1px solid #E1E1E1;
+    filter: drop-shadow(0px 4.91399px 16.0821px rgba(44, 102, 184, 0.05)) drop-shadow(0px 1.46302px 4.78807px rgba(0, 0, 0, 0.0161557));
+}
+
+.header__wrapsect {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    max-width: calc(100% - 265px);
+    width: 100%;
+    flex: 0 0 calc(100% - 265px);
+
+
+    ul {
+        padding: 0 40px 0 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 40px;
+
+            a {
+                color: #5F5F6D;
+                font-size: 16px;
+                line-height: 16px;
+                position: relative;
+                text-decoration: none;
+                transition: .3s;
+
+                &:hover {
+                    color: #3538CE;
+                }
+
+                &:active {
+                    color: #4346DE;
+                }
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &.submenu {
+                a {
+
+                    &:after {
+                        content: '';
+                        display: inline-block;
+                        width: 10px;
+                        height: 6px;
+                        position: absolute;
+                        right: -14px;
+                        top: 9px;
+                        background: url('../img/svg/header-arrow.svg') no-repeat center / 100%;
+                    }
+
+                    &:hover {
+                        &:after {
+                            background: url('../img/svg/header-arrow-blue.svg') no-repeat center / 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header__rightbox {
+    max-width: 265px;
+    width: 100%;
+    flex: 0 0 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__language {
+    >span {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #7E7E93;
+        font-family: 'Inter', sans-serif;
+
+        img {
+            margin-right: 8px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// font-family: 'Gilroy-Bold';
+// font-family: 'Gilroy-Regular';
+// font-family: 'Gilroy-SemiBold';
+// font-family: 'Sofia Pro';
+// font-family: 'Sofia Pro Semi';
+// font-family: 'Inter', sans-serif;
