@@ -1,1 +1,1 @@
-$(document).ready((function(){$(".roadmap-slider").slick({slidesToShow:3,slidesToScroll:1,autoplaySpeed:2e3,infinite:!0,centerMode:!0,focusOnSelect:!0,nextArrow:'<button type="button" class="slick-next"></button>',prevArrow:'<button type="button" class="slick-prev"></button>'})}));
+$(document).ready((function(){$(".roadmap-slider").slick({slidesToShow:3,slidesToScroll:1,autoplaySpeed:2e3,infinite:!0,centerMode:!0,focusOnSelect:!0,initialSlide:2,nextArrow:'<button type="button" class="slick-next"></button>',prevArrow:'<button type="button" class="slick-prev"></button>'})}));

@@ -22,6 +22,10 @@
         font-size: 65px;
         line-height: 116%;
         margin-bottom: 24px;
+
+        span {
+            color: #4346DE;
+        }
     }
 
     .subtitle {
@@ -94,6 +98,9 @@
     height: 100%;
     padding: 42px 15px 39px;
     text-align: center;
+
+    border-radius: 10px;
+    box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
 
 .benefits__img {
@@ -342,13 +349,408 @@
     .qtitle,
     .boximg img,
     .pmbox__body {
-        opacity: .5;
+        // opacity: .5;
     }
 }
 
 .slick-slide.slick-current.slick-active * {
     opacity: 1 !important;
 }
+
+.team .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+.teamblock {
+    background-color: #fff;
+    box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 10px;
+    padding: 23px 40px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+
+    .joinbox {
+        max-width: 200px;
+        text-align: center;
+        margin-top: -20px;
+
+        .title {
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #2A2A2A;
+            font-family: 'Sofia Pro Semi';
+            margin-bottom: 11px;
+        }
+
+        .descr {
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            color: #7E7E93;
+        }
+    }
+}
+
+.teamblock__proff {
+    margin-bottom: 27px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7E7E93;
+}
+
+.teamblock__photo {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 2px solid rgba(210, 214, 218, 0.3);
+    margin: 0 auto 55px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.teamblock__name {
+    font-size: 22px;
+    line-height: 140%;
+    color: #2A2A2A;
+    margin: 0;
+}
+
+.teamblock__modalbtn {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #4346DE;
+    border-radius: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none !important;
+    padding: 0;
+
+    img {
+        transition: .3s;
+    }
+
+    &:hover {
+        img {
+            transform: rotate(-45deg);
+        }
+    }
+
+}
+
+#teampopup .modal-dialog {
+    max-width: 655px;
+
+    .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        opacity: 1;
+        outline: none !important;
+        transition: .3s;
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+
+    .modal-content {
+        border: none;
+        background: #F8FAFF;
+        border-radius: 10px;
+        padding: 50px 100px;
+    }
+
+    .modal-content {
+        background-image: url('../img/shadowfigure.png');
+        background-repeat: no-repeat;
+        background-position: left -150px bottom -150px;
+    }
+}
+
+.tampopupwrapper {
+    .teamblock__photo {
+        margin-bottom: 20px;
+    }
+
+    .name {
+        margin-bottom: 3px;
+        color: #2A2A2A;
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+    .preff {
+        color: #2A2A2A;
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .descr {
+        max-width: 336px;
+        margin: 0 auto 24px;
+
+        p {
+            color: #7E7E93;
+            font-size: 16px;
+            line-height: 150%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .modalsoclist {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 5px;
+        }
+    }
+
+
+
+
+
+
+
+
+}
+
+.welcomescreen {
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &:after {
+        content: '';
+        width: 400px;
+        height: 400px;
+        background: rgba(131, 208, 244, 0.15);
+        filter: blur(100px);
+        position: absolute;
+        left: -47px;
+        top: 31%;
+    }
+}
+
+.about {
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &:after {
+        content: '';
+        width: 500px;
+        height: 500px;
+        background: rgba(131, 208, 244, 0.1);
+        filter: blur(100px);
+        position: absolute;
+        right: -160px;
+        bottom: -200px;
+    }
+
+}
+
+.howitworks,
+.benefits,
+.testimonialsect {
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.benefits {
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 500px;
+        height: 500px;
+        background: rgba(131, 208, 244, 0.1);
+        filter: blur(100px);
+        position: absolute;
+
+    }
+}
+
+.benefits:after {
+    left: -69px;
+    bottom: -200px;
+    width: 400px;
+    height: 400px;
+}
+
+.investors__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.investors__img {
+    width: 196px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+main.main {
+    padding-bottom: 60px;
+}
+
+.formsection {
+    .formwrapper {
+        background: #fff;
+        box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 10px;
+        padding: 40px 80px 65px;
+    }
+
+    .section-title {
+        margin-bottom: 35px;
+    }
+}
+
+.getintouchform {
+    max-width: 640px;
+    margin: 0 auto;
+
+    label {
+        display: block;
+        margin: 0 0 8px 0;
+        color: #000;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    input {
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid #D2D6DA;
+        background: #fff;
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 20px;
+        color: rgba(42, 42, 42, 0.5);
+        font-size: 16px;
+        font-family: 'Sofia Pro';
+        transition: .3s;
+
+        &:focus {
+            border: 1px solid #7E7E93;
+        }
+
+        &::placeholder {
+            color: #7E7E93;
+            opacity: 0.5;
+        }
+
+
+    }
+
+    textarea {
+        height: 106px;
+        border-radius: 8px;
+        border: 1px solid #D2D6DA;
+        background: #fff;
+        width: 100%;
+        padding: 10px 13px;
+        color: #7E7E93;
+        font-size: 16px;
+        font-family: 'Sofia Pro';
+        resize: none;
+        outline: none;
+        transition: .3s;
+
+        &::placeholder {
+            color: #7E7E93;
+            opacity: 0.5;
+        }
+
+        &:focus {
+            border: 1px solid #7E7E93;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .formsubmit {
+        transition: .3s;
+        animation-timing-function: ease-in-out;
+        height: 56px;
+        width: 100%;
+        max-width: 355px;
+        margin: 35px auto 0;
+        font-size: 20px;
+        border: none;
+    }
+
+
+
+
+}
+
+.errortext {
+    display: none;
+    color: #FF1F1F;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 7px;
+    // display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -375,8 +777,13 @@
 
 
 .roadmap,
-.team {
+.team,
+.formsection {
     padding: 0 0 92px 0;
+}
+
+.investors {
+    padding: 50px 0 120px;
 }
 
 // font-family: 'Gilroy-Bold';

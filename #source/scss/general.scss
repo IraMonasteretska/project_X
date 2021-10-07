@@ -160,6 +160,39 @@ button {
     }
 }
 
+.blue-btn {
+    min-height: 46px;
+    max-width: 164px;
+    width: 100%;
+    transition: .3s;
+    background: #4346DE;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px 4px;
+    font-family: 'Sofia Pro Semi';
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none !important;
+    color: #fff;
+
+    &:hover {
+        background: #D7E2FF;
+        box-shadow: 0px 11px 70px rgba(31, 35, 228, 0.17);
+        color: #4346DE;
+    }
+
+    &:focus,
+    &:active {
+        background: #C7D6FD;
+        box-shadow: 0px 11px 70px rgba(31, 35, 228, 0.17);
+        color: #4346DE;
+    }
+}
+
+
+
 .section-title {
     margin-bottom: 40px;
     font-size: 44px;
