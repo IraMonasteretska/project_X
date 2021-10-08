@@ -945,11 +945,60 @@ header.header {
     height: 393px;
 }
 
+.jq-selectbox.jqselect {
+    width: 100%;
+
+    .jq-selectbox__select {
+        height: 40px;
+        border: 1px solid #D2D6DA;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: none !important;
+        text-shadow: none;
+        padding-left: 13px;
+
+        font-size: 16px;
+        font-family: "Sofia Pro";
 
 
+        color: rgba(42, 42, 42, 0.5);
 
+        .jq-selectbox__select-text {
+            line-height: 38px;
+            font-family: "Sofia Pro";
+        }
 
+        .jq-selectbox__select-text.placeholder {
+            color: #7E7E93;
+            opacity: 0.5;
+        }
+    }
 
+    .jq-selectbox__trigger {
+        border-left: none;
+
+        background-image: url('../img/svg/select-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .jq-selectbox__trigger-arrow {
+            display: none;
+        }
+    }
+}
+
+.jq-selectbox li:hover {
+    background-color: #4346de;
+    color: #FFF;
+}
+
+.jq-selectbox__dropdown {
+    li {
+        font-family: 'Sofia Pro';
+        color: rgba(42, 42, 42, 0.5);
+    }
+
+}
 
 
 

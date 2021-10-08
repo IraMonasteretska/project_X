@@ -8,6 +8,8 @@
     <title>Main</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/lib/slick.css">
+    <link rel="stylesheet" href="css/lib/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/lib/jquery.formstyler.theme.css">
     <link rel="stylesheet" href="css/bundle.css">
 </head>
 
@@ -502,9 +504,19 @@
                     <div class="formwrapper">
                         <h3 class="text-center section-title">Get in Touch</h3>
                         <form action="#" method="get" id="getintouchform" class="getintouchform">
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="purposecont">Purpose of contact</label>
                                 <input type="text" id="purposecont" placeholder="Choose a purpose" required>
+                                <span class="errortext">error purpose</span>
+                            </div> -->
+                            <div class="form-group">
+                                <label for="purposecont">Purpose of contact</label>
+                                <select name="" id="" data-placeholder="Choose a purpose" required>
+                                    <option value="0"></option>
+                                    <option value="1">Careers</option>
+                                    <option value="2">Partnership</option>
+                                    <option value="3">General</option>
+                                </select>
                                 <span class="errortext">error purpose</span>
                             </div>
                             <div class="form-group">
@@ -707,6 +719,7 @@
     <script src="js/lib/jquery.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/slick.min.js"></script>
+    <script src="js/lib/jquery.formstyler.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 

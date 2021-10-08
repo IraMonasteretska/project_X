@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $('input, select').styler();
+
+
     // Slider
     $('.roadmap-slider').slick({
         slidesToShow: 3,
@@ -81,6 +84,17 @@ $(document).ready(function () {
             $('.submenu ul').slideUp();
         }
     });
+
+
+
+
+
+
+
+
+
+
+
 
 
 });
