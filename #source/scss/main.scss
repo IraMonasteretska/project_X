@@ -912,9 +912,38 @@ header.header {
     }
 }
 
+.formsection,
+.investors {
+    position: relative;
 
+    .container {
+        position: relative;
+        z-index: 2;
+    }
 
+    &:after {
+        content: '';
+        display: inline-block;
+        background: rgba(122, 199, 238, 0.15);
+        filter: blur(100px);
+        position: absolute;
 
+    }
+}
+
+.formsection:after {
+    left: -103px;
+    bottom: -50px;
+    width: 462px;
+    height: 462px;
+}
+
+.investors:after {
+    right: -104px;
+    top: -150px;
+    width: 393px;
+    height: 393px;
+}
 
 
 
