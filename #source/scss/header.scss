@@ -17,62 +17,65 @@ header.header {
     width: 100%;
     flex: 0 0 calc(100% - 265px);
 
+    nav {
+        >ul {
+            padding: 0 40px 0 0;
+            margin: 0;
+            list-style-type: none;
+            text-align: right;
 
-    ul {
-        padding: 0 40px 0 0;
-        margin: 0;
-        list-style-type: none;
-        text-align: right;
+            >li {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 40px;
 
-        li {
-            display: inline-block;
-            vertical-align: middle;
-            margin-left: 40px;
-
-            a {
-                color: #5F5F6D;
-                font-size: 16px;
-                line-height: 16px;
-                position: relative;
-                text-decoration: none;
-                transition: .3s;
-
-                &:hover {
-                    color: #3538CE;
-                }
-
-                &:active {
-                    color: #4346DE;
-                }
-            }
-
-            &:first-child {
-                margin-left: 0;
-            }
-
-            &.submenu {
-                a {
-
-                    &:after {
-                        content: '';
-                        display: inline-block;
-                        width: 10px;
-                        height: 6px;
-                        position: absolute;
-                        right: -14px;
-                        top: 9px;
-                        background: url('../img/svg/header-arrow.svg') no-repeat center / 100%;
-                    }
+                >a {
+                    color: #5F5F6D;
+                    font-size: 16px;
+                    line-height: 16px;
+                    position: relative;
+                    text-decoration: none;
+                    transition: .3s;
 
                     &:hover {
+                        color: #3538CE;
+                    }
+
+                    &:active {
+                        color: #4346DE;
+                    }
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                &.submenu {
+                    >a {
+
                         &:after {
-                            background: url('../img/svg/header-arrow-blue.svg') no-repeat center / 100%;
+                            content: '';
+                            display: inline-block;
+                            width: 10px;
+                            height: 6px;
+                            position: absolute;
+                            right: -14px;
+                            top: 9px;
+                            background: url('../img/svg/header-arrow.svg') no-repeat center / 100%;
+                        }
+
+                        &:hover {
+                            &:after {
+                                background: url('../img/svg/header-arrow-blue.svg') no-repeat center / 100%;
+                            }
                         }
                     }
                 }
             }
         }
     }
+
+
 }
 
 .header__rightbox {
@@ -103,8 +106,47 @@ header.header {
 
 
 
+.header__nav nav>ul>li {
+    position: relative;
+}
 
+.submenu {
+    >ul {
+        list-style-type: none;
+        padding: 18px 0;
+        margin: 0;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        top: calc(100% + 11px);
+        text-align: center;
+        background: #F8FAFF;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 5px;
+        width: 150px;
+        display: none;
 
+        li {
+            margin-bottom: 17px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                color: #5F5F6D;
+                font-size: 16px;
+                line-height: 16px;
+                text-decoration: none;
+                transition: .3s;
+
+                &:hover {
+                    color: #3538CE;
+                }
+            }
+        }
+    }
+}
 
 
 

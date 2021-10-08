@@ -1,5 +1,5 @@
 .welcomescreen {
-    padding: 43px 0 031px 0;
+    padding: 43px 0 31px 0;
 
     .container {
         position: relative;
@@ -8,8 +8,16 @@
     .welcomescreen__illustration {
         position: absolute;
         right: 0;
-        top: 0;
+        top: 14px;
     }
+
+
+}
+
+.about-illustration {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
 }
 
 .welcomescreen__descr {
@@ -61,7 +69,7 @@
 }
 
 .about {
-    padding: 87px 0 30px;
+    padding: 87px 0 230px;
 
     .description {
         p {
@@ -78,7 +86,7 @@
 }
 
 .howitworks {
-    padding: 22px 0 92px 0;
+    padding: 36px 0 92px 0;
 }
 
 .framewrapper {
@@ -732,14 +740,76 @@ main.main {
     // display: block;
 }
 
+header.header {
+    z-index: 3;
+}
 
+.header__language {
+    position: relative;
 
+    ul {
+        position: absolute;
+        width: 80px;
+        left: -11px;
+        top: calc(100% + 9px);
+        list-style-type: none;
+        padding: 15px 11px;
+        margin: 0;
+        background: #F8FAFF;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 5px;
+        display: none;
 
+        li {
+            margin-bottom: 13px;
 
+            &:last-child {
+                margin-bottom: 0;
+            }
 
+            a {
+                color: #7E7E93;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 21px;
+                font-family: "Inter", sans-serif;
+                display: flex;
+                align-items: center;
+                transition: .3s;
 
+                &:hover {
+                    color: #4346DE;
+                }
 
+                img {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
 
+.burgermenu-btn {
+    display: none;
+}
+
+.welcomescreen__descr .blue-btn {
+    display: none;
+}
+
+.about-illustration.tablet,
+.closemenu {
+    display: none;
+}
+
+.welcomescreen__illustration.mobile {
+    display: none;
+}
+
+.footer__bottomsect.mob {
+    display: none;
+}
 
 
 
