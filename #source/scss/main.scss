@@ -856,6 +856,82 @@ header.header {
     padding: 50px 0 120px;
 }
 
+
+
+// benefits new ??????????????????
+.benefits__box.colpic {
+    padding-top: 0;
+    border: 1px solid #4346DE;
+
+    .benefits__img {
+        width: 100%;
+        height: 225px;
+        margin-bottom: 7px;
+    }
+}
+
+// team >?????????????
+.team .col-lg-3 {
+    margin-bottom: 30px;
+}
+
+.teamblock.blmate {
+    padding: 17px 30px;
+
+    .teamblock__proff {
+        margin-bottom: 10px;
+    }
+
+    .teamblock__photo {
+        width: 117px;
+        height: 117px;
+        border: none;
+        margin-bottom: 32px;
+    }
+
+    .teamblock__modalbtn {
+        width: 56px;
+        height: 56px;
+    }
+
+    .teamblock__name {
+        font-size: 18px;
+    }
+
+    .teamblock__modalbtn img {
+        width: 13px;
+    }
+
+    .joinbox .title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .joinbox {
+        margin-top: -10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // font-family: 'Gilroy-Bold';
 // font-family: 'Gilroy-Regular';
 // font-family: 'Gilroy-SemiBold';

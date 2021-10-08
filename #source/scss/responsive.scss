@@ -4,7 +4,6 @@
     }
 }
 
-
 @media(max-width:1199.8px) {
     .header__language>span {
         font-size: 16px;
@@ -124,6 +123,29 @@
     header.header {
         height: 90px;
     }
+
+    .benefits__box.colpic .benefits__img {
+        height: 190px;
+    }
+
+    .teamblock.blmate {
+        min-height: 240px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -895,7 +917,9 @@
         margin-bottom: 15px;
     }
 
-
+    .benefits__box.colpic .benefits__img {
+        height: 170px;
+    }
 
 
 
@@ -916,7 +940,6 @@
 
 
 }
-
 
 @media(max-width:576px) {
     #teampopup .modal-dialog {
@@ -952,7 +975,9 @@
         width: 120px;
     }
 
-
+    .benefits__box.colpic .benefits__img {
+        height: 150px;
+    }
 
 
 
