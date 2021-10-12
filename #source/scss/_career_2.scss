@@ -1,0 +1,468 @@
+// career main ----------------------------------------------------
+.wrap-v2 {
+    .career__main {
+        padding: 90px 0 100px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 401px;
+            height: 401px;
+            right: 0;
+            bottom: -150px;
+            background: rgba(131, 208, 244, 0.15);
+            filter: blur(100px);
+            z-index: -1;
+        }
+    }
+
+    .career__main-title h1 {
+        font-family: "Gilroy-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 65px;
+        line-height: 80px;
+        text-transform: capitalize;
+        color: #2a2a2a;
+        margin-bottom: 16px;
+    }
+
+    .career__main-subtitle {
+        font-size: 21px;
+        line-height: 150%;
+        color: #7e7e93;
+        max-width: 579px;
+        margin: 0 auto 34px;
+    }
+
+    .career__main-btn {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 17px 50px;
+        background: #4346de;
+        border-radius: 4px;
+        color: #ffffff;
+        font-family: "Sofia Pro";
+        font-weight: normal;
+        margin-bottom: 29px;
+        transition: 0.3s;
+
+        &:hover {
+            background: #d7e2ff;
+            color: #4346de;
+        }
+    }
+
+    .career__main-image {
+        position: relative;
+        max-width: 1135px;
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            max-width: 487px;
+            width: 100%;
+            background-size: cover;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url(../img/career_main_before.svg);
+            width: 292px;
+            height: 270px;
+            background-size: cover;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-image: url(../img/career_main_after.svg);
+            width: 292px;
+            height: 270px;
+            background-size: cover;
+            bottom: 0px;
+            right: 0px;
+        }
+    }
+
+    // career positions ----------------------------------------------
+
+    .career__pos {
+        padding-bottom: 100px;
+        position: relative;
+    }
+
+    .career__pos-inner {
+        width: 100%;
+        min-height: 391px;
+        background: #ffffff;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+            0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+            0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+            0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+            0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+            0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 10px;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .career__pos-title {
+        margin-bottom: 40px;
+    }
+
+    .career__pos-row {
+        margin: 0 auto;
+        max-width: 746px;
+        width: 100%;
+        border-top: 1px solid rgba(126, 126, 147, 0.3);
+    }
+
+    .career__pos-dropdown {
+        cursor: pointer;
+        text-align: left;
+        width: 100%;
+        min-height: 90px;
+        position: relative;
+        padding: 20px 0 20px 95px;
+        border-bottom: 1px solid rgba(126, 126, 147, 0.3);
+
+        span {
+            font-size: 16px;
+            line-height: 140%;
+            color: #7e7e93;
+        }
+
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 30px;
+            right: 0;
+            background-image: url(../img/arrow_career_pos.svg);
+            width: 20px;
+            height: 31px;
+            background-repeat: no-repeat;
+            transition: 0.2s;
+        }
+    }
+
+    .career__dropdown-name {
+        font-family: "Sofia Pro Semi";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        color: #2a2a2a;
+        margin-bottom: 7px;
+    }
+
+    .career__dropdown-list {
+        display: none;
+        overflow: hidden;
+        transition: 0.6s;
+
+        p {
+            font-size: 16px;
+            line-height: 140%;
+            color: rgba(126, 126, 147, 0.8);
+            margin-top: 15px;
+            max-width: 438px;
+        }
+    }
+
+    .career__pos-dropdown--active {
+        &::after {
+            transform: rotate(90deg);
+            opacity: 0.5;
+        }
+    }
+
+    // career perks -----------------------------------------------
+
+    .career__perks {
+        padding-bottom: 120px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 401px;
+            height: 401px;
+            left: -76px;
+            bottom: -20px;
+            z-index: -1;
+            background: rgba(131, 208, 244, 0.15);
+            filter: blur(100px);
+        }
+    }
+
+    .career__perks-title {
+        margin-bottom: 57px;
+    }
+
+    .career__perks-item {
+        height: 115px;
+        max-width: 164px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            max-width: 86px;
+            background-size: cover;
+        }
+
+        span {
+            font-family: "Sofia Pro Semi";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 22px;
+            color: #2a2a2a;
+        }
+    }
+
+    // modal window --------------------------------------------------------
+    #modal__career {
+        .modal-body {
+            padding: 0;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 288px;
+                height: 288px;
+                left: -90px;
+                bottom: -90px;
+                background: rgba(131, 208, 244, 0.15);
+                filter: blur(100px);
+            }
+
+            .section-title {
+                margin-bottom: 25px;
+            }
+
+            .getintouchform .formsubmit {
+                height: 50px;
+                max-width: 175px;
+                margin: 35px auto 0;
+                font-size: 16px;
+            }
+        }
+
+        .modal-content {
+            background-color: #f8faff;
+            border-radius: 10px;
+            box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+                0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+                0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+                0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+                0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+            height: 640px;
+            padding: 92px 128px 82px;
+        }
+
+        .modal-dialog {
+            max-width: 655px;
+        }
+
+        .btn-close {
+            position: absolute;
+            top: 23px;
+            right: 28px;
+        }
+
+        .btn-close:focus {
+            box-shadow: none;
+        }
+    }
+
+
+
+
+
+
+
+}
+
+.wrap-v2 .career__pos-inner {
+    position: relative;
+    top: initial;
+}
+
+.career__main {
+    min-height: 100vh;
+    height: auto;
+}
+
+// media --------------------------------
+@media (max-width: 1199.8px) {
+    .wrap-v2 {
+
+        .career__main-image::before,
+        .career__main-image::after {
+            width: 210px;
+            height: 194px;
+            bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 991.8px) {
+    .wrap-v2 {
+        .career__perks-title {
+            text-align: center;
+        }
+
+        .career__perks-item {
+            margin: 0 auto 30px;
+        }
+
+        .career__main-image img {
+            max-width: 400px;
+        }
+
+        .career__main-image::before,
+        .career__main-image::after {
+            width: 169px;
+            height: 167px;
+        }
+
+        .career__main {
+            padding: 70px 0;
+        }
+
+        .career__main-title h1 {
+            font-size: 45px;
+            line-height: 120%;
+        }
+
+        .career__main-subtitle {
+            font-size: 20px;
+            line-height: 150%;
+            max-width: 500px;
+        }
+
+        .career__pos-dropdown {
+            padding: 20px 0 20px 60px;
+        }
+
+        .career__dropdown-name {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width: 767.8px) {
+    .wrap-v2 {
+        .career__pos {
+            padding-bottom: 70px;
+        }
+
+        #modal__career .modal-content,
+        #modal__partner .modal-content {
+            height: 620px;
+            padding: 80px;
+        }
+
+        .career__main-image::before,
+        .career__main-image::after {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 575.8px) {
+    .wrap-v2 {
+
+        #modal__partner .modal-content,
+        #modal__career .modal-content {
+            height: 600px;
+            padding: 80px 30px;
+        }
+
+        .career__perks::after {
+            width: 200;
+            height: 200;
+        }
+
+        .career__dropdown-list p {
+            margin-top: 10px;
+        }
+
+        .career__main-title h1 {
+            font-size: 37px;
+            line-height: 120%;
+        }
+
+        .career__pos-inner {
+            min-height: 370px;
+            padding: 35px;
+        }
+
+        .career__pos-dropdown {
+            padding: 20px 0 20px 35px;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .wrap-v2 {
+        .career__perks {
+            padding-bottom: 60px;
+        }
+
+        .career__perks-item {
+            height: 100px;
+
+            span {
+                font-size: 18px;
+                line-height: 20px;
+            }
+        }
+
+        .career__main {
+            padding: 50px 15px 50px;
+        }
+
+        .career__pos::before {
+            width: 50%;
+        }
+
+        .career__pos::after {
+            width: 50%;
+        }
+
+        .career__pos-inner {
+            min-height: 340px;
+            padding: 30px;
+        }
+
+        .career__pos-wrapper {
+            height: 340px;
+        }
+
+        .career__pos-title {
+            margin-bottom: 20px;
+        }
+
+        .career__main-subtitle {
+            max-width: 320px;
+        }
+
+        .career__pos-dropdown {
+            padding: 20px 0 20px;
+        }
+    }
+}
