@@ -85,8 +85,9 @@
     position: relative;
     width: 100%;
     text-align: center;
-    height: 391px;
+    // height: 391px;
 }
+
 
 .career__pos-inner {
     width: 100%;
@@ -101,7 +102,7 @@
     border-radius: 10px;
     text-align: center;
     padding: 50px;
-    position: absolute;
+    position: relative;
     top: -90px;
 }
 
@@ -317,7 +318,7 @@
     }
 
     .career__pos-wrapper {
-        height: 370px;
+        // height: 370px;
     }
 
     .career__pos-dropdown {
@@ -344,7 +345,7 @@
     }
 
     .career__pos-wrapper {
-        height: 340px;
+        // height: 340px;
     }
 
     .career__pos-title {
