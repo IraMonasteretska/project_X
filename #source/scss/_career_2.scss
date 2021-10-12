@@ -305,6 +305,14 @@
     height: auto;
 }
 
+
+
+
+
+
+
+
+
 // media --------------------------------
 @media (max-width: 1199.8px) {
     .wrap-v2 {
@@ -415,6 +423,16 @@
             padding: 20px 0 20px 35px;
         }
     }
+
+    .wrap-v2 .career__perks-item span {
+        text-align: center;
+    }
+
+    .wrap-v2 .career__pos:before,
+    .wrap-v2 .career__pos:after {
+        display: none;
+    }
+
 }
 
 @media (max-width: 460px) {
