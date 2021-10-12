@@ -570,7 +570,11 @@
         }
     }
 
-
+    header.header.header_withoutspace {
+        height: auto;
+        margin-top: 0;
+        padding: 10px 0;
+    }
 
 
 
@@ -580,6 +584,8 @@
 }
 
 @media(max-width:767.8px) {
+
+
     header.header {
         height: 37px;
         margin-top: 50px;
@@ -954,6 +960,10 @@
         max-width: 100%;
         margin-left: 40px;
         margin-right: 40px;
+    }
+
+    .career__main-subtitle {
+        color: #fff;
     }
 }
 

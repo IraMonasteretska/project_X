@@ -87,6 +87,15 @@ $(document).ready(function () {
 
 
 
+    $(function () {
+
+        $('.career__pos-dropdown').on('click', function () {
+            $(this).toggleClass('career__pos-dropdown--active');
+            $(this).find('.career__dropdown-list').toggle();
+        });
+
+    });
+
 
 
 

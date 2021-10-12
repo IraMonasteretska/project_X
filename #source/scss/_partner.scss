@@ -177,6 +177,17 @@ main.main {
     overflow: hidden;
 }
 
+.modal-content .close {
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
 
 
 
@@ -313,6 +324,13 @@ main.main {
 
     .partner__box-item {
         padding: 17px 11px;
+    }
+
+    .modal-content .close,
+    #modal__career .close,
+    #modal__partner .close {
+        top: 10px !important;
+        right: 10px !important;
     }
 
 
