@@ -12,7 +12,7 @@
     &::before {
         content: "";
         position: absolute;
-        background-image: url(../../img/buy__vso-before.svg);
+        background-image: url(../img/buy__vso-before.svg);
         background-repeat: no-repeat;
         width: 50%;
         height: 694px;
@@ -30,7 +30,7 @@
     &:after {
         content: "";
         position: absolute;
-        background-image: url(../../img/buy__vso-after.svg);
+        background-image: url(../img/buy__vso-after.svg);
         background-repeat: no-repeat;
         width: 50%;
         height: 694px;
@@ -169,7 +169,7 @@
 }
 
 .buy__vso-img {
-    background: url(image.png);
+    // background: url(../img/image.png);
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
     border-radius: 10px;
     overflow: hidden;
