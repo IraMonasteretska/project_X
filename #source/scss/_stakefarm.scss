@@ -1,0 +1,280 @@
+// stakefarm main ----------------------------------------------------
+
+.stakefarm__main {
+    position: relative;
+    overflow: hidden;
+}
+
+.stakefarm__main-inner {
+    padding-top: 90px;
+    padding-bottom: 162px;
+}
+
+.stakefarm__left_pos {
+    width: 679px;
+    height: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.stakefarm__right_pos {
+    position: absolute;
+    max-width: 950px;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.stakefarm__main-title h1 {
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+}
+
+.stakefarm__main-subtitle {
+    font-size: 21px;
+    line-height: 150%;
+    color: #7e7e93;
+    max-width: 579px;
+    margin: 0 auto 40px;
+}
+
+.stakefarm__main-box {
+    padding: 33px;
+    width: 100%;
+    max-width: 1135px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+        0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+        0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+        0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+        0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+        0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 10px;
+
+    table {
+        width: 100%;
+        min-width: 750px;
+    }
+
+    tr {
+        &+tr {
+            border-top: 1px solid rgba(#7e7e93, 0.1);
+        }
+    }
+
+    td {
+        text-align: left;
+        font-size: 20px;
+        line-height: 150%;
+        color: #7e7e93;
+
+        span {
+            color: #4346de;
+        }
+    }
+
+    .stakefarm__box-btn {
+        text-align: right;
+    }
+
+    th:last-child {
+        opacity: 0;
+        cursor: default;
+    }
+
+    .table__title {
+        padding-top: 30px;
+        font-family: "Sofia Pro Semi";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        color: #2a2a2a;
+        text-align: left;
+    }
+}
+
+.stakefarm__box-btn {
+    a {
+        font-family: "Sofia Pro Semi";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        background-color: #fff;
+        background: #4346de;
+        padding: 15px 36px;
+        border-radius: 5px;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #d7e2ff;
+            color: #4346de;
+            text-decoration: none;
+        }
+    }
+}
+
+.stakefarm__box-img {
+    img {
+        width: 91px;
+        height: 54px;
+    }
+}
+
+// media -------------------------------------
+
+@media (max-width: 991.8px) {
+    .stakefarm__main-title h1 {
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    .stakefarm__main-subtitle {
+        font-size: 20px;
+        line-height: 150%;
+        margin: 0 auto 30px;
+    }
+
+
+    .stakefarm__main-box td {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .stakefarm__main-box .table__title {
+        padding-top: 15px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .stakefarm__main-box {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 767.8px) {
+    .stakefarm__main-box {
+        max-width: 100%;
+        overflow: scroll;
+
+    }
+
+    .stakefarm__box-img img {
+        width: 70px;
+        height: auto;
+    }
+
+    .stakefarm__main-inner {
+        padding: 80px 0 120px;
+    }
+
+    .stakefarm__main-subtitle {
+        font-size: 20px;
+        line-height: 150%;
+        max-width: 400px;
+    }
+
+    .stakefarm__left_pos {
+        width: 450px;
+    }
+
+    .stakefarm__right_pos {
+        max-width: 550px;
+        bottom: -80px;
+    }
+}
+
+@media (max-width: 575.8px) {
+    .stakefarm__main-subtitle {
+        margin: 0px auto 20px;
+    }
+
+    .stakefarm__main-title h1 {
+        font-size: 37px;
+        line-height: 120%;
+    }
+
+    .stakefarm__right_pos {
+        max-width: 300px;
+        bottom: -200px;
+    }
+}
+
+@media (max-width: 460px) {
+    .stakefarm__main-subtitle {
+        max-width: 320px;
+    }
+
+    .stakefarm__main-inner {
+        padding: 50px 0 80px;
+    }
+}
+
+
+.stakefarm__box-img img {
+    height: auto;
+}
+
+@media(max-width: 991.8px) {
+    .stakefarm__main-box {
+        max-width: 100%;
+        overflow: scroll;
+    }
+
+    .stakefarm__main-box .table__title {
+        font-size: 18px;
+    }
+
+    .stakefarm__main-box {
+        padding-top: 0;
+    }
+
+    .stakefarm__main-box td {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .stakefarm__box-btn a {
+        padding: 12px 30px;
+    }
+
+    .stakefarm__main-inner {
+        padding-bottom: 80px;
+    }
+
+}
+
+@media(max-width: 576.8px) {
+    .stakefarm__main-box .table__title {
+        font-size: 16px;
+    }
+
+    .stakefarm__main-box table {
+        min-width: 650px;
+    }
+
+    .stakefarm__box-img img {
+        height: 40px;
+        width: auto;
+        max-width: initial;
+    }
+
+    .stakefarm__main-box td {
+        padding: 15px 10px;
+    }
+
+}
