@@ -189,6 +189,60 @@ main.main {
     top: 20px;
 }
 
+.career__main.pwu-firstsection {
+    background-position: center right;
+
+    .career__main-subtitle {
+        max-width: 457px;
+    }
+}
+
+.partner__support.pwu-secsection {
+    padding-top: 70px;
+
+    .partner__support-box {
+        margin-top: -170px;
+    }
+
+    .partner__support-title {
+        max-width: 50%;
+    }
+
+
+
+
+}
+
+.formsection.pwu-form {
+    &:after {
+        right: -150px;
+        bottom: -150px;
+        left: initial;
+        top: initial;
+    }
+}
+
+.career__main.pwu-firstsection .tabletimg {
+    display: none;
+}
+
+.career__main.pwu-firstsection {
+    &:after {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 1200px) {

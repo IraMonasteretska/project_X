@@ -256,3 +256,33 @@ footer.footer {
         }
     }
 }
+
+
+.footer__list ul li a span {
+    color: #00D7B0;
+}
+
+.footer__socials {
+    text-align: left;
+}
+
+.footer__termslist {
+    text-align: right;
+}
+
+.foot__copyright {
+    margin: 32px 0 0 0;
+    color: rgba(196, 196, 196, 0.8);
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.footer__termslist li a {
+    color: rgba(196, 196, 196, 0.8);
+    font-size: 15px;
+    line-height: 15px;
+}
+
+footer.footer {
+    padding-bottom: 55px;
+}

@@ -15,12 +15,12 @@
 
 
 <body>
-    <header class="header">
+    <header class="header header_withoutspace header__blue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div class="header__logo">
-                        <a href="inde.html"><img src="img/svg/logo.svg" alt="logo"></a>
+                        <a href="index.html"><img src="img/svg/logo-whitee.svg" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-8 col-6">
@@ -93,31 +93,32 @@
                         </div>
                     </div>
                     <div class="burgermenu-btn">
-                        <img src="img/svg/menu-icon.svg" alt="menu">
+                        <img src="img/svg/menu-icon-white.svg" alt="menu">
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="partner__main">
-            <div class="partner__main-inner text-center">
-                <div class="partner__main-title ">
-                    <h1>Let's partner up</h1>
-                </div>
-                <p class="partner__main-subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium in turpis pharetra sed nulla
-                    fermentum. Vel
-                    nulla.
-                </p>
-                <a href="#" class="partner__main-btn" data-toggle="modal" data-target="#modal__partner">Let’s talk
-                    about it</a>
-                <div class="partner__main-image ">
-                    <img src="img/partner_main.png" alt="">
+        <section class="career__main pwu-firstsection" style="background-image: url(img/partnerbg.png);">
+            <div class="container">
+                <div class="career__main-inner ">
+                    <div class="career__main-title ">
+                        <h1>Let's partner up</h1>
+                    </div>
+                    <p class="career__main-subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium in turpis pharetra sed nulla
+                        fermentum. Vel nulla.
+                    </p>
+                    <a href="#" class="career__main-btn" data-toggle="modal" data-target="#modal__career">
+                        Let’s talk about it
+                    </a>
                 </div>
             </div>
+
+            <img class="tabletimg" src="img/ill1.png" alt="img">
         </section>
-        <section class="partner__support">
+        <section class="partner__support pwu-secsection">
             <div class="container">
                 <h3 class="partner__support-title section-title">
                     Service support
@@ -128,18 +129,11 @@
                             <div class=" partner__support-text">
                                 <div class="row">
                                     <div class="col-lg-12 col-sm-6 ">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id maecenas eu odio
-                                            suspendisse fringilla
-                                            sed
-                                            ultricies. Lacus, in sed eu, non. Sodales mauris, rhoncus, sed et lorem.
-                                            Quis.</p>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-6">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id maecenas eu odio
-                                            suspendisse fringilla
-                                            sed
-                                            ultricies. Lacus, in sed eu, non. Sodales mauris, rhoncus, sed et lorem.
-                                            Quis.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id maecenas eu odio
+                                            suspendisse fringilla sed ultricies. Lacus, in sed eu, non. Sodales mauris,
+                                            rhoncus, sed et lorem. Quis.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -198,21 +192,50 @@
 
             </div>
         </section>
+        <section class="formsection pwu-form">
+            <div class="container">
+                <div class="formwrapper">
+                    <h3 class="text-center section-title">Get in Touch</h3>
+                    <form action="#" method="get" id="getintouchform" class="getintouchform">
+                        <div class="form-group">
+                            <label for="purposecont">Partner with Verso</label>
+                            <select name="" id="" data-placeholder="Choose a purpose" required>
+                                <option value="0"></option>
+                                <option value="1">Careers</option>
+                                <option value="2">Partnership</option>
+                                <option value="3">General</option>
+                                <option value="4">Other</option>
+                            </select>
+                            <span class="errortext">error purpose</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" placeholder="Your Name" id="name" required>
+                            <span class="errortext">error name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email" placeholder="Your email" id="email" required>
+                            <span class="errortext">error email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea placeholder="Textarea" id="message"></textarea>
+                            <span class="errortext">error message</span>
+                        </div>
+                        <button class="formsubmit blue-btn" type="submit">Submit</button>
+                    </form>
 
-
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__topsect">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-12">
                         <a href="index.html" class="footer__logo"><img src="img/svg/logo-white.svg" alt="logo"></a>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="footer__topsect-r">
-                            <span>Join the innovation</span>
-                            <a href="#" class="blue-btn">Buy VSO</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -275,8 +298,8 @@
                                                 7.5%</span>)
                                         </a>
                                     </li>
-                                    <li><a href="#">Where to buy</a></li>
-                                    <li><a href="#">Staking options</a></li>
+                                    <li><a href="#">Buy Verso</a></li>
+                                    <li><a href="#">Stake & Farm Verso</a></li>
                                 </ul>
                             </div>
                             <div class="footer__list">
@@ -290,10 +313,8 @@
                                 <p class="title">Community</p>
                                 <ul>
                                     <li><a href="#">Join our Telegram in English </a></li>
-                                    <li><a href="#">Join our Telegram in Chinese </a></li>
-                                    <li><a href="#">Join our Telegram in Turkish </a></li>
-                                    <li><a href="#">Join our Telegram in Spanish </a></li>
-                                    <li><a href="#">Join our Telegram in French </a></li>
+                                    <li><a href="#">Join our Telegram in Chinese</a></li>
+                                    <li><a href="#">Join our Telegram in Turkish</a></li>
                                     <li><a href="#">Submit a question for AMA</a></li>
                                 </ul>
                             </div>
@@ -302,19 +323,19 @@
                 </div>
             </div>
             <div class="footer__bottomsect">
-                <div class="row">
-                    <!-- <div class="col-md-6">
-                        <ul class="footer__termslist">
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div> -->
-                    <div class="col-md-12">
+                <div class="row align-items-end">
+                    <div class="col-md-6">
                         <ul class="footer__socials">
                             <li><a href="#" target="_blank"><span class="icon-foot-fb"></span></a></li>
                             <li><a href="#" target="_blank"><span class="icon-foot-tw"></span></a></li>
                             <li><a href="#" target="_blank"><span class="icon-foot-in"></span></a></li>
                             <li><a href="#" target="_blank"><span class="icon-foot-telegram"></span></a></li>
+                        </ul>
+                        <p class="foot__copyright">Copyright 2021© Verso Finance </p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer__termslist">
+                            <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
