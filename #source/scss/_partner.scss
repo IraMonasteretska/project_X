@@ -232,6 +232,22 @@ main.main {
     }
 }
 
+// ---
+.career__main.pwu-firstsection {
+    background: linear-gradient(312.51deg, #4346DE -3.07%, #10054D 52.02%);
+    max-height: 1000px;
+    min-height: initial;
+    height: 100vh;
+
+    .descrimg {
+        display: inline-block;
+        position: absolute;
+        right: 95px;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: calc(50% - 100px);
+    }
+}
 
 
 
@@ -241,9 +257,14 @@ main.main {
 
 
 
+@media(max-width:1600.8px) {
+    .career__main.pwu-firstsection {
+        padding-top: 160px;
+        max-height: 800px;
+    }
 
 
-
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -251,7 +272,23 @@ main.main {
     }
 }
 
-@media (max-width: 1199.8px) {}
+@media (max-width: 1199.8px) {
+    .career__main.pwu-firstsection .descrimg {
+        right: 30px;
+
+        max-width: calc(50% - 30px);
+    }
+}
+
+@media(max-width:1024.8px) {
+    .career__main.pwu-firstsection .descrimg {
+        display: none;
+    }
+
+    .career__main.pwu-firstsection {
+        max-height: 1000px;
+    }
+}
 
 @media (max-width: 991.8px) {
     .partner__support-left {
