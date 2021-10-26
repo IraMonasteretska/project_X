@@ -169,7 +169,10 @@
         top: 12px;
     }
 
-
+    .career__main.pwu-firstsection {
+        max-height: 700px;
+        min-height: 700px;
+    }
 
 
 
@@ -217,7 +220,7 @@
     }
 
     .partner__support.pwu-secsection {
-        padding-top: 172px;
+        padding-top: 82px;
     }
 
     .partner__support-text {
@@ -249,19 +252,19 @@
     .career__main.pwu-firstsection {
         position: relative;
 
-        &:after {
-            content: '';
-            display: block;
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
+        // &:after {
+        //     content: '';
+        //     display: block;
+        //     position: absolute;
+        //     right: 0;
+        //     bottom: 0;
+        //     width: 100%;
+        //     height: 100%;
 
-            background-image: url('../img/circfig2.png');
-            background-repeat: no-repeat;
-            background-position: right bottom -200px;
-        }
+        //     background-image: url('../img/circfig2.png');
+        //     background-repeat: no-repeat;
+        //     background-position: right bottom -200px;
+        // }
     }
 
     .career__main.pwu-firstsection {
@@ -271,9 +274,36 @@
         }
     }
 
+    .career__main.pwu-firstsection .descrimg {
+        display: block;
+        max-width: 361px;
+        margin: 30px auto 0;
+        position: relative;
+        bottom: 0;
+        top: initial;
+        transform: none;
+        right: initial;
+    }
 
+    .career__main.pwu-firstsection {
+        height: 868px;
+        max-height: 868px;
+    }
 
-    // circfig1
+    .descrimg-lines {
+        display: none;
+    }
+
+    .descrimg-linestablet {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -40%;
+    }
+
+    .partner__support.pwu-secsection .section-title {
+        margin-bottom: 10px;
+    }
 
 
 
@@ -799,14 +829,18 @@
 
 
 
-    // .blog-open__header,
-    // .about__main .about__main-inner, .career__main {
-    //     padding-top: 150px;
-    // }
 
+    .header.header_withoutspace.header__blue {
+        .header__logo {
+            .wh {
+                display: block;
+            }
 
-
-
+            .bl {
+                display: none;
+            }
+        }
+    }
 
 
 
@@ -1304,6 +1338,27 @@
         padding-bottom: 10px;
     }
 
+    .descrimg-linestablet {
+        display: none;
+    }
+
+    .descrimg-linestel {
+        display: block;
+        position: absolute;
+        bottom: -125px;
+        right: 0;
+    }
+
+    .career__main.pwu-firstsection {
+        height: auto;
+        max-height: initial;
+        padding-bottom: 10px;
+    }
+
+    .career__main.pwu-firstsection .descrimg {
+        max-width: 282px;
+        margin-top: 0;
+    }
 
 
 
@@ -1401,7 +1456,9 @@
         padding-bottom: 60px;
     }
 
-
+    .partner__support.pwu-secsection {
+        padding-top: 75px;
+    }
 
 
 
