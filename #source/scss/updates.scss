@@ -1,0 +1,187 @@
+.career__main,
+.about__main {
+    background: linear-gradient(312.51deg, #4346DE -3.07%, #10054D 52.02%);
+    max-height: 1000px;
+    min-height: initial;
+    height: 100vh;
+    min-height: 870px;
+}
+
+.career__main.career-firstsection {
+    .career-fscreenimg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .container {
+        z-index: 2;
+        position: relative;
+    }
+
+}
+
+.about__main {
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .about__layerbg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+    }
+
+    .about__main-inner {
+        padding-top: 240px;
+
+        .about__main-title {
+            margin-top: 50px;
+        }
+    }
+}
+
+.about__descr {
+    position: relative;
+
+    .about__descr-bg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1199.8px) {
+    .about__main .about__main-inner {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+
+
+
+
+}
+
+
+@media(max-width:1024.8px) {
+
+    .career__main,
+    .about__main {
+        height: 868px;
+        max-height: 868px;
+        position: relative;
+        background: linear-gradient(312.51deg, #4346DE -3.07%, #10054D 52.02%) !important;
+        height: auto;
+        min-height: initial;
+        max-height: initial;
+
+        .career__main-inner {
+            text-align: center;
+        }
+
+        .career__main-subtitle {
+            margin: 0 auto 45px;
+        }
+    }
+
+    .career__main.career-firstsection .career-fscreenimg {
+        position: relative;
+    }
+
+    .about__main .about__main-inner {
+        text-align: center;
+
+        .col-lg-6 {
+            width: 100%;
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+
+    .about__main .about__main-inner .about__main-title {
+        margin-top: 0;
+    }
+
+    .about__main-subtitle {
+        margin: 0 auto 45px;
+    }
+
+}
+
+@media(max-width:991.8px) {
+
+    .career__main.career-firstsection,
+    .about__main {
+        padding-top: 234px;
+    }
+
+    .about__main .about__main-inner {
+        padding-top: 0 !important;
+        padding-bottom: 50px;
+    }
+
+    .about__main .about__main-img {
+        max-width: 360px;
+    }
+
+    .about__descr .about__descr-bg {
+        position: absolute;
+        bottom: initial;
+        right: -100px;
+        width: 100%;
+        top: 100px;
+    }
+
+    .about__descr-text {
+        margin-bottom: 0;
+    }
+
+    .about__descr {
+        padding-bottom: 100px;
+    }
+
+
+}
+
+@media(max-width:767.8px) {
+    .about__descr .about__descr-bg {
+        display: none;
+    }
+
+    .about__descr {
+        padding-bottom: 0;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    .career__main.career-firstsection,
+    .about__main {
+        padding-top: 157px;
+    }
+
+    .career__main .career__main-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .about__main .about__main-img {
+        max-width: 200px;
+    }
+
+
+
+
+
+
+
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Page</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/lib/slick.css">
     <link rel="stylesheet" href="css/lib/jquery.formstyler.css">
@@ -19,7 +19,10 @@
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div class="header__logo">
-                        <a href="index.html"><img src="img/svg/logo-whitee.svg" alt="logo"></a>
+                        <a href="index.html">
+                            <img class="wh" src="img/svg/logo-whitee.svg" alt="logo">
+                            <img class="bl" src="img/svg/logo.svg" alt="logo">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-8 col-6">
@@ -100,11 +103,11 @@
     </header>
 
     <main class="main">
-        <section class="about__main" style="background-image: url(img/about_main_bg.jpg);">
+        <section class="about__main">
             <div class="container">
                 <div class="about__main-inner ">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="about__main-title ">
                                 <h1>We are Verso</h1>
                             </div>
@@ -116,21 +119,20 @@
                             <a href="#" class="about__main-btn" data-toggle="modal" data-target="#modal__about">Apply
                                 Now</a>
                         </div>
-                        <div class="col-md-6">
-                            <img class="about__main-img" src="img/about_main_pos.jpg" alt="image">
+                        <div class="col-lg-6">
+                            <img class="about__main-img" src="img/illustration/illustration-pic6.svg" alt="image">
                         </div>
                     </div>
-
-
                 </div>
             </div>
+            <img src="img/illustration/layer-about.png" alt="bg" class="about__layerbg">
         </section>
 
-        <section class="about__descr" style="background-image: url(img/about__descr_bg.png);">
+        <section class="about__descr">
             <div class="container">
                 <div class="about__descr-inner">
                     <div class="row">
-                        <div class="col-md-8 col-lg-6">
+                        <div class="col-md-12 col-lg-6">
                             <div class="about__descr-title section-title">
                                 Subheading that shortly describes the company
                             </div>
@@ -152,16 +154,17 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-lg-6">
+                        <!-- <div class="col-md-4 col-lg-6">
                             <div class="about__descr-img">
                                 <img class="descr__right-img" src="img/about__descr_img.png" alt="img">
                                 <img class="descr__right-bg" src="img/about__descr_right_bg.png" alt="img">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
             </div>
+            <img src="img/illustration/illustration-pic7.svg" alt="img" class="about__descr-bg">
         </section>
     </main>
 
