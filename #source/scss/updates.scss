@@ -185,3 +185,174 @@
 
 
 }
+
+
+// HOME UPDATES
+
+.welcomescreen .welcomescreen__illustration {
+    top: 84px;
+    max-width: 908px;
+}
+
+.about-illustration {
+    max-width: 857px;
+}
+
+.benefits__img img {
+    max-width: 250px;
+}
+
+.teamblock__photo img {
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 300px;
+    padding-bottom: 50px;
+}
+
+.about-illustration {
+    bottom: initial;
+    top: -145px;
+}
+
+.benefits__box.colpic {
+    background: #FFFFFF;
+    border: 1px solid #4346DE;
+    box-sizing: border-box;
+    box-shadow: 0px 41.7776px 33.4221px rgb(0 0 0 / 5%), 0px 22.3363px 17.869px rgb(0 0 0 / 4%), 0px 12.5216px 10.0172px rgb(0 0 0 / 4%), 0px 6.6501px 5.32008px rgb(0 0 0 / 3%), 0px 2.76726px 2.21381px rgb(0 0 0 / 2%);
+    border-radius: 10px;
+}
+
+@media(max-width:1367.8px) {
+    .about {
+        margin-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    .about-illustration {
+        top: -45px;
+    }
+
+
+}
+
+@media(max-width:1199.8px) {
+    .welcomescreen .welcomescreen__illustration {
+        right: initial;
+        left: 30%;
+    }
+}
+
+@media(max-width:991.8px) {
+    .welcomescreen .welcomescreen__illustration {
+        left: initial;
+        right: calc(50% - 200px);
+        transform: translateX(50%);
+        top: 50px;
+    }
+
+    .welcomescreen .welcomescreen__descr {
+        padding-top: 216px;
+        padding-bottom: 146px;
+    }
+
+    .about {
+        margin-top: 0;
+    }
+
+    .wrapptabletill2 {
+        position: relative;
+        overflow: hidden;
+        height: 520px;
+
+    }
+
+    .about-illustration.tablet {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about__descr {
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:767.8px) {
+    .welcomescreen .welcomescreen__illustration {
+        transform: none;
+        top: 0;
+        max-width: 100%;
+        right: initial;
+    }
+
+
+    .welcomescreen .welcomescreen__descr {
+        padding-top: 68px;
+        padding-bottom: 18px;
+    }
+
+    .welcomescreen .welcomescreen__descr h1,
+    .welcomescreen .welcomescreen__descr .subtitle {
+        text-align: left;
+    }
+
+    .about-illustration.tablet {
+        width: 100%;
+    }
+
+    .howitworks {
+        padding-top: 10px;
+    }
+
+    .testimonialsect .testimonial .quotepic {
+        position: relative;
+        opacity: 1;
+        width: 42px;
+        top: 0;
+        margin-bottom: 8px;
+    }
+
+    .testimonialsect .testimonial {
+        padding: 33px 20px 33px;
+    }
+
+    .testimonialsect .testimonial__descr {
+        margin-bottom: 27px;
+    }
+
+    .testimonial__descr p {
+        font-size: 16px;
+    }
+
+    .welcomescreen__illustration.mobile {
+        width: calc(100% + 260px);
+        max-width: initial;
+        margin-left: -130px;
+    }
+
+
+
+
+
+}
+
+@media(max-width:480.8px) {
+    .about-illustration.tablet {
+        width: calc(100% + 200px);
+        margin-left: -100px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .benefits__img img {
+        max-width: 100%;
+    }
+
+}
